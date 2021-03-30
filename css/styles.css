@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.5rem;
+    background-color: #ebebeb;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+/************************ HEADER-TOP *****************************/
+
+.main-header{
+    background-color:#fff159; 
+    height: 11rem;
+    padding-bottom: 1rem;
+}
+
+.main-header-box{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.main-header__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header__bottom__nav-menu{
+    width: 70rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header__bottom__nav-profile{
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    padding-right: 1rem;
+}
+
+.main-header__top__search-bar{
+    display: flex;
+    background-color: #fff;
+    height: 4rem;
+    width: 40%;
+}
+
+.main-header__top__search-bar__input{
+    background-color: #fff;
+    width: 50rem;
+    height: 4rem;
+    border: 0;
+    padding-left: 1rem;
+}
+
+.fa-search{
+    padding: 1rem;
+}
+
+.main-header__top__mercado-puntos img{
+    height: 4rem;
+}
+
+/************************ HEADER-BOTTOM *****************************/
+
+.prenav-cp{
+   text-decoration: none;
+   color: #000;
+}
+.prenav-cp i{
+
+    color:#eb4427;
+ }
+
+.nav-profile{
+    display: flex;
+    padding-left: 2rem;
+ }
+
+ /************************ MAIN-PAGE *****************************/
+ 
+ 
+.main-page{
+  
+
+}
+
+.main-page__header-image{
+    margin-left:15rem;
+    width: 85%;
+ height: 33rem;
+}
+
+.main-page__pagos{
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 60%;
+    height: 9rem;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+    padding: 2rem;
+}
+
+.main-page__pagos a{
+    color:rgb(0, 119, 255);
+}
+
+.main-page-pagos__item{
+    display: flex;
+    align-items: center;
+    line-height: 0.75;
+}
+
+.main-page-pagos__item img{
+  margin-right: 1rem;
+}
